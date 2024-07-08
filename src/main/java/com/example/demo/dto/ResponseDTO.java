@@ -1,4 +1,4 @@
-package com.example.todo.dto;
+package com.example.demo.dto;
 
 import java.util.List;
 import lombok.AllArgsConstructor;

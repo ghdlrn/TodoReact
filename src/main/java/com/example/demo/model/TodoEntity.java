@@ -1,4 +1,4 @@
-package com.example.todo.model;
+package com.example.demo.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -21,7 +21,10 @@ public class TodoEntity {
     @GeneratedValue(generator="system-uuid")
     @GenericGenerator(name="system-uuid", strategy = "uuid")
     private String id;
+
     private String userId;
+
     private String title;
+
     private boolean done;
 }
